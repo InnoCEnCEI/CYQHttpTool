@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		410582D2233E54B2001F6E4F /* CYQMultiFormMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 410582D1233E54B2001F6E4F /* CYQMultiFormMaker.m */; };
+		410656232336660C00374F75 /* CYQUrlSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 410656222336660C00374F75 /* CYQUrlSession.m */; };
+		410656262336665400374F75 /* CYQUrlTaskDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 410656252336665400374F75 /* CYQUrlTaskDelegate.m */; };
+		4106562D233674DD00374F75 /* CYQNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4106562C233674DD00374F75 /* CYQNetworkTool.m */; };
+		411F859F232FD4EA00EFFEEB /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 411F8595232FD4EA00EFFEEB /* AFURLResponseSerialization.m */; };
+		411F85A0232FD4EA00EFFEEB /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 411F8596232FD4EA00EFFEEB /* AFHTTPSessionManager.m */; };
+		411F85A1232FD4EA00EFFEEB /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 411F8598232FD4EA00EFFEEB /* AFURLSessionManager.m */; };
+		411F85A2232FD4EA00EFFEEB /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 411F8599232FD4EA00EFFEEB /* AFURLRequestSerialization.m */; };
+		411F85A3232FD4EA00EFFEEB /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 411F859B232FD4EA00EFFEEB /* AFNetworkReachabilityManager.m */; };
+		411F85A4232FD4EA00EFFEEB /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 411F859C232FD4EA00EFFEEB /* AFSecurityPolicy.m */; };
+		411F85A7232FD8CE00EFFEEB /* CYQRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 411F85A6232FD8CE00EFFEEB /* CYQRequestSerializer.m */; };
+		411F85AA232FD8E100EFFEEB /* CYQResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 411F85A9232FD8E100EFFEEB /* CYQResponseSerializer.m */; };
+		418A6D8C23371F0D00FD1EC7 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 418A6D8B23371F0D00FD1EC7 /* libsqlite3.0.tbd */; };
+		418A6D8F23371F4A00FD1EC7 /* CYQEasyCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 418A6D8E23371F4A00FD1EC7 /* CYQEasyCache.m */; };
+		5567C84B232BCEDF00101149 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5567C84A232BCEDF00101149 /* AppDelegate.m */; };
+		5567C84E232BCEDF00101149 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5567C84D232BCEDF00101149 /* ViewController.m */; };
+		5567C851232BCEDF00101149 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5567C84F232BCEDF00101149 /* Main.storyboard */; };
+		5567C853232BCEE000101149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5567C852232BCEE000101149 /* Assets.xcassets */; };
+		5567C856232BCEE000101149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5567C854232BCEE000101149 /* LaunchScreen.storyboard */; };
+		5567C859232BCEE000101149 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5567C858232BCEE000101149 /* main.m */; };
+		5567C863232BCEE000101149 /* cyqnetworktoolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5567C862232BCEE000101149 /* cyqnetworktoolTests.m */; };
+		5567C86E232BCEE000101149 /* cyqnetworktoolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5567C86D232BCEE000101149 /* cyqnetworktoolUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5567C85F232BCEE000101149 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5567C83E232BCEDF00101149 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5567C845232BCEDF00101149;
+			remoteInfo = cyqnetworktool;
+		};
+		5567C86A232BCEE000101149 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5567C83E232BCEDF00101149 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5567C845232BCEDF00101149;
+			remoteInfo = cyqnetworktool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		410582D0233E54B2001F6E4F /* CYQMultiFormMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYQMultiFormMaker.h; sourceTree = "<group>"; };
+		410582D1233E54B2001F6E4F /* CYQMultiFormMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYQMultiFormMaker.m; sourceTree = "<group>"; };
+		410656212336660C00374F75 /* CYQUrlSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYQUrlSession.h; sourceTree = "<group>"; };
+		410656222336660C00374F75 /* CYQUrlSession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYQUrlSession.m; sourceTree = "<group>"; };
+		410656242336665400374F75 /* CYQUrlTaskDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYQUrlTaskDelegate.h; sourceTree = "<group>"; };
+		410656252336665400374F75 /* CYQUrlTaskDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYQUrlTaskDelegate.m; sourceTree = "<group>"; };
+		4106562A23366CCF00374F75 /* CYQMacroHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYQMacroHeader.h; sourceTree = "<group>"; };
+		4106562B233674DD00374F75 /* CYQNetworkTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYQNetworkTool.h; sourceTree = "<group>"; };
+		4106562C233674DD00374F75 /* CYQNetworkTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYQNetworkTool.m; sourceTree = "<group>"; };
+		411F8591232FD4EA00EFFEEB /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		411F8592232FD4EA00EFFEEB /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		411F8593232FD4EA00EFFEEB /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		411F8594232FD4EA00EFFEEB /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		411F8595232FD4EA00EFFEEB /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		411F8596232FD4EA00EFFEEB /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		411F8597232FD4EA00EFFEEB /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		411F8598232FD4EA00EFFEEB /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		411F8599232FD4EA00EFFEEB /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		411F859A232FD4EA00EFFEEB /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		411F859B232FD4EA00EFFEEB /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		411F859C232FD4EA00EFFEEB /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		411F859D232FD4EA00EFFEEB /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		411F859E232FD4EA00EFFEEB /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		411F85A5232FD8CE00EFFEEB /* CYQRequestSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYQRequestSerializer.h; sourceTree = "<group>"; };
+		411F85A6232FD8CE00EFFEEB /* CYQRequestSerializer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYQRequestSerializer.m; sourceTree = "<group>"; };
+		411F85A8232FD8E100EFFEEB /* CYQResponseSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYQResponseSerializer.h; sourceTree = "<group>"; };
+		411F85A9232FD8E100EFFEEB /* CYQResponseSerializer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYQResponseSerializer.m; sourceTree = "<group>"; };
+		418A6D8B23371F0D00FD1EC7 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		418A6D8D23371F4A00FD1EC7 /* CYQEasyCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYQEasyCache.h; sourceTree = "<group>"; };
+		418A6D8E23371F4A00FD1EC7 /* CYQEasyCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYQEasyCache.m; sourceTree = "<group>"; };
+		5567C846232BCEDF00101149 /* cyqnetworktool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cyqnetworktool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5567C849232BCEDF00101149 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5567C84A232BCEDF00101149 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5567C84C232BCEDF00101149 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5567C84D232BCEDF00101149 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5567C850232BCEDF00101149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5567C852232BCEE000101149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5567C855232BCEE000101149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5567C857232BCEE000101149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5567C858232BCEE000101149 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5567C85E232BCEE000101149 /* cyqnetworktoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cyqnetworktoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5567C862232BCEE000101149 /* cyqnetworktoolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cyqnetworktoolTests.m; sourceTree = "<group>"; };
+		5567C864232BCEE000101149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5567C869232BCEE000101149 /* cyqnetworktoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cyqnetworktoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5567C86D232BCEE000101149 /* cyqnetworktoolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cyqnetworktoolUITests.m; sourceTree = "<group>"; };
+		5567C86F232BCEE000101149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5567C843232BCEDF00101149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418A6D8C23371F0D00FD1EC7 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5567C85B232BCEE000101149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5567C866232BCEE000101149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		410656202336657400374F75 /* CYQNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				4106562B233674DD00374F75 /* CYQNetworkTool.h */,
+				4106562C233674DD00374F75 /* CYQNetworkTool.m */,
+				410582D0233E54B2001F6E4F /* CYQMultiFormMaker.h */,
+				410582D1233E54B2001F6E4F /* CYQMultiFormMaker.m */,
+				411F85A5232FD8CE00EFFEEB /* CYQRequestSerializer.h */,
+				411F85A6232FD8CE00EFFEEB /* CYQRequestSerializer.m */,
+				411F85A8232FD8E100EFFEEB /* CYQResponseSerializer.h */,
+				411F85A9232FD8E100EFFEEB /* CYQResponseSerializer.m */,
+				410656212336660C00374F75 /* CYQUrlSession.h */,
+				410656222336660C00374F75 /* CYQUrlSession.m */,
+				410656242336665400374F75 /* CYQUrlTaskDelegate.h */,
+				410656252336665400374F75 /* CYQUrlTaskDelegate.m */,
+				418A6D8D23371F4A00FD1EC7 /* CYQEasyCache.h */,
+				418A6D8E23371F4A00FD1EC7 /* CYQEasyCache.m */,
+				4106562A23366CCF00374F75 /* CYQMacroHeader.h */,
+			);
+			path = CYQNetwork;
+			sourceTree = "<group>";
+		};
+		411F8590232FD4EA00EFFEEB /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				411F859A232FD4EA00EFFEEB /* AFNetworking.h */,
+				411F859E232FD4EA00EFFEEB /* AFHTTPSessionManager.h */,
+				411F8596232FD4EA00EFFEEB /* AFHTTPSessionManager.m */,
+				411F8593232FD4EA00EFFEEB /* AFURLSessionManager.h */,
+				411F8598232FD4EA00EFFEEB /* AFURLSessionManager.m */,
+				411F8594232FD4EA00EFFEEB /* AFURLRequestSerialization.h */,
+				411F8599232FD4EA00EFFEEB /* AFURLRequestSerialization.m */,
+				411F8597232FD4EA00EFFEEB /* AFURLResponseSerialization.h */,
+				411F8595232FD4EA00EFFEEB /* AFURLResponseSerialization.m */,
+				411F8591232FD4EA00EFFEEB /* AFSecurityPolicy.h */,
+				411F859C232FD4EA00EFFEEB /* AFSecurityPolicy.m */,
+				411F859D232FD4EA00EFFEEB /* AFCompatibilityMacros.h */,
+				411F8592232FD4EA00EFFEEB /* AFNetworkReachabilityManager.h */,
+				411F859B232FD4EA00EFFEEB /* AFNetworkReachabilityManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		418A6D8A23371F0D00FD1EC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				418A6D8B23371F0D00FD1EC7 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5567C83D232BCEDF00101149 = {
+			isa = PBXGroup;
+			children = (
+				410656202336657400374F75 /* CYQNetwork */,
+				411F8590232FD4EA00EFFEEB /* AFNetworking */,
+				5567C848232BCEDF00101149 /* cyqnetworktool */,
+				5567C861232BCEE000101149 /* cyqnetworktoolTests */,
+				5567C86C232BCEE000101149 /* cyqnetworktoolUITests */,
+				5567C847232BCEDF00101149 /* Products */,
+				418A6D8A23371F0D00FD1EC7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5567C847232BCEDF00101149 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5567C846232BCEDF00101149 /* cyqnetworktool.app */,
+				5567C85E232BCEE000101149 /* cyqnetworktoolTests.xctest */,
+				5567C869232BCEE000101149 /* cyqnetworktoolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5567C848232BCEDF00101149 /* cyqnetworktool */ = {
+			isa = PBXGroup;
+			children = (
+				5567C849232BCEDF00101149 /* AppDelegate.h */,
+				5567C84A232BCEDF00101149 /* AppDelegate.m */,
+				5567C84C232BCEDF00101149 /* ViewController.h */,
+				5567C84D232BCEDF00101149 /* ViewController.m */,
+				5567C84F232BCEDF00101149 /* Main.storyboard */,
+				5567C852232BCEE000101149 /* Assets.xcassets */,
+				5567C854232BCEE000101149 /* LaunchScreen.storyboard */,
+				5567C857232BCEE000101149 /* Info.plist */,
+				5567C858232BCEE000101149 /* main.m */,
+			);
+			path = cyqnetworktool;
+			sourceTree = "<group>";
+		};
+		5567C861232BCEE000101149 /* cyqnetworktoolTests */ = {
+			isa = PBXGroup;
+			children = (
+				5567C862232BCEE000101149 /* cyqnetworktoolTests.m */,
+				5567C864232BCEE000101149 /* Info.plist */,
+			);
+			path = cyqnetworktoolTests;
+			sourceTree = "<group>";
+		};
+		5567C86C232BCEE000101149 /* cyqnetworktoolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5567C86D232BCEE000101149 /* cyqnetworktoolUITests.m */,
+				5567C86F232BCEE000101149 /* Info.plist */,
+			);
+			path = cyqnetworktoolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5567C845232BCEDF00101149 /* cyqnetworktool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5567C872232BCEE000101149 /* Build configuration list for PBXNativeTarget "cyqnetworktool" */;
+			buildPhases = (
+				5567C842232BCEDF00101149 /* Sources */,
+				5567C843232BCEDF00101149 /* Frameworks */,
+				5567C844232BCEDF00101149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cyqnetworktool;
+			productName = cyqnetworktool;
+			productReference = 5567C846232BCEDF00101149 /* cyqnetworktool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5567C85D232BCEE000101149 /* cyqnetworktoolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5567C875232BCEE000101149 /* Build configuration list for PBXNativeTarget "cyqnetworktoolTests" */;
+			buildPhases = (
+				5567C85A232BCEE000101149 /* Sources */,
+				5567C85B232BCEE000101149 /* Frameworks */,
+				5567C85C232BCEE000101149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5567C860232BCEE000101149 /* PBXTargetDependency */,
+			);
+			name = cyqnetworktoolTests;
+			productName = cyqnetworktoolTests;
+			productReference = 5567C85E232BCEE000101149 /* cyqnetworktoolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5567C868232BCEE000101149 /* cyqnetworktoolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5567C878232BCEE000101149 /* Build configuration list for PBXNativeTarget "cyqnetworktoolUITests" */;
+			buildPhases = (
+				5567C865232BCEE000101149 /* Sources */,
+				5567C866232BCEE000101149 /* Frameworks */,
+				5567C867232BCEE000101149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5567C86B232BCEE000101149 /* PBXTargetDependency */,
+			);
+			name = cyqnetworktoolUITests;
+			productName = cyqnetworktoolUITests;
+			productReference = 5567C869232BCEE000101149 /* cyqnetworktoolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5567C83E232BCEDF00101149 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CYQ;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "钱程远";
+				TargetAttributes = {
+					5567C845232BCEDF00101149 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5567C85D232BCEE000101149 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5567C845232BCEDF00101149;
+					};
+					5567C868232BCEE000101149 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5567C845232BCEDF00101149;
+					};
+				};
+			};
+			buildConfigurationList = 5567C841232BCEDF00101149 /* Build configuration list for PBXProject "cyqnetworktool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5567C83D232BCEDF00101149;
+			productRefGroup = 5567C847232BCEDF00101149 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5567C845232BCEDF00101149 /* cyqnetworktool */,
+				5567C85D232BCEE000101149 /* cyqnetworktoolTests */,
+				5567C868232BCEE000101149 /* cyqnetworktoolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5567C844232BCEDF00101149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5567C856232BCEE000101149 /* LaunchScreen.storyboard in Resources */,
+				5567C853232BCEE000101149 /* Assets.xcassets in Resources */,
+				5567C851232BCEDF00101149 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5567C85C232BCEE000101149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5567C867232BCEE000101149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5567C842232BCEDF00101149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411F85A2232FD4EA00EFFEEB /* AFURLRequestSerialization.m in Sources */,
+				411F85A3232FD4EA00EFFEEB /* AFNetworkReachabilityManager.m in Sources */,
+				411F85A1232FD4EA00EFFEEB /* AFURLSessionManager.m in Sources */,
+				5567C84E232BCEDF00101149 /* ViewController.m in Sources */,
+				5567C859232BCEE000101149 /* main.m in Sources */,
+				4106562D233674DD00374F75 /* CYQNetworkTool.m in Sources */,
+				411F85A7232FD8CE00EFFEEB /* CYQRequestSerializer.m in Sources */,
+				418A6D8F23371F4A00FD1EC7 /* CYQEasyCache.m in Sources */,
+				411F859F232FD4EA00EFFEEB /* AFURLResponseSerialization.m in Sources */,
+				410656262336665400374F75 /* CYQUrlTaskDelegate.m in Sources */,
+				410582D2233E54B2001F6E4F /* CYQMultiFormMaker.m in Sources */,
+				411F85AA232FD8E100EFFEEB /* CYQResponseSerializer.m in Sources */,
+				411F85A0232FD4EA00EFFEEB /* AFHTTPSessionManager.m in Sources */,
+				411F85A4232FD4EA00EFFEEB /* AFSecurityPolicy.m in Sources */,
+				410656232336660C00374F75 /* CYQUrlSession.m in Sources */,
+				5567C84B232BCEDF00101149 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5567C85A232BCEE000101149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5567C863232BCEE000101149 /* cyqnetworktoolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5567C865232BCEE000101149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5567C86E232BCEE000101149 /* cyqnetworktoolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5567C860232BCEE000101149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5567C845232BCEDF00101149 /* cyqnetworktool */;
+			targetProxy = 5567C85F232BCEE000101149 /* PBXContainerItemProxy */;
+		};
+		5567C86B232BCEE000101149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5567C845232BCEDF00101149 /* cyqnetworktool */;
+			targetProxy = 5567C86A232BCEE000101149 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5567C84F232BCEDF00101149 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5567C850232BCEDF00101149 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5567C854232BCEE000101149 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5567C855232BCEE000101149 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5567C870232BCEE000101149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5567C871232BCEE000101149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5567C873232BCEE000101149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cyqnetworktool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyq.cyqnetworktool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5567C874232BCEE000101149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cyqnetworktool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyq.cyqnetworktool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5567C876232BCEE000101149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cyqnetworktoolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyq.cyqnetworktoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cyqnetworktool.app/cyqnetworktool";
+			};
+			name = Debug;
+		};
+		5567C877232BCEE000101149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cyqnetworktoolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyq.cyqnetworktoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cyqnetworktool.app/cyqnetworktool";
+			};
+			name = Release;
+		};
+		5567C879232BCEE000101149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cyqnetworktoolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyq.cyqnetworktoolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cyqnetworktool;
+			};
+			name = Debug;
+		};
+		5567C87A232BCEE000101149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cyqnetworktoolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyq.cyqnetworktoolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cyqnetworktool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5567C841232BCEDF00101149 /* Build configuration list for PBXProject "cyqnetworktool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5567C870232BCEE000101149 /* Debug */,
+				5567C871232BCEE000101149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5567C872232BCEE000101149 /* Build configuration list for PBXNativeTarget "cyqnetworktool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5567C873232BCEE000101149 /* Debug */,
+				5567C874232BCEE000101149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5567C875232BCEE000101149 /* Build configuration list for PBXNativeTarget "cyqnetworktoolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5567C876232BCEE000101149 /* Debug */,
+				5567C877232BCEE000101149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5567C878232BCEE000101149 /* Build configuration list for PBXNativeTarget "cyqnetworktoolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5567C879232BCEE000101149 /* Debug */,
+				5567C87A232BCEE000101149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5567C83E232BCEDF00101149 /* Project object */;
+}
